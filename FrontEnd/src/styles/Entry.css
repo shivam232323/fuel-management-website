@@ -1,0 +1,13 @@
+.entry-container {
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.entry-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.entry-card .card-header {
+    padding: 1.5rem;
+}

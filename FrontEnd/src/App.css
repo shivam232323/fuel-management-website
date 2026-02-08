@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-content {
+    flex: 1;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+footer {
+    margin-top: auto;
+}
