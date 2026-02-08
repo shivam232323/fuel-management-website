@@ -76,7 +76,9 @@ function EntryPage() {
       formDataToSend.append('quantity', formData.quantity);
       formDataToSend.append('vehicleNumber', formData.vehicleNumber);
       formDataToSend.append('paymentMode', formData.paymentMode);
-      formDataToSend.append('paymentProof', file);
+      formDataToSend.append( 'paymentProof', file );
+      
+      dispensingAPI.createRecord(formDataToSend);
 
       setSuccess('Record created successfully!');
       setFormData({
